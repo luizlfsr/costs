@@ -85,6 +85,7 @@ function Project() {
       setMessage("Orçamento ultrapassado, verifique o valor do serviço");
       setType("error");
       project.services.pop();
+      setShowServiceForm(false)
       return false;
     }
 
@@ -100,7 +101,7 @@ function Project() {
       body: JSON.stringify(project),
     })
       .then((resp) => resp.json())
-      .then((data) => {
+      .then(() => {
         // exibir os serviços
         setShowServiceForm(false);
       })
@@ -125,7 +126,7 @@ function Project() {
       body: JSON.stringify(projectUpdated),
     })
       .then((resp) => resp.json())
-      .then((data) => {
+      .then(() => {
         setProject(projectUpdated)
         setServices(servicesUpdated)
         setMessage('Serviço removido com sucesso!')
@@ -197,7 +198,7 @@ function Project() {
                     id={service.id}
                     name={service.name}
                     cost={service.cost}
-                    description={service.description}
+                    description={service.description ? service.description : 'Descrição não informada'}
                     key={service.id}
                     handleRemove={removeService}
                   />

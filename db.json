@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "name": "site Costs",
+      "budget": "20",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [
+        {
+          "name": "programador em react",
+          "cost": "0",
+          "description": "faz tudo",
+          "id": "fda74e0a-ff6b-4b83-b2e6-b59a2746269c"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "doçaria",
+      "budget": "15000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 15000,
+      "services": [
+        {
+          "name": "pintura",
+          "cost": "400",
+          "description": "pintura externa da loja",
+          "id": "a2046b7d-f71d-4e4c-96aa-f9c89add2a4d"
+        },
+        {
+          "name": "produtos da loja",
+          "cost": "7500",
+          "description": "produtos para estoque da loja",
+          "id": "388a9d68-1bf5-42bf-90e4-a1a7345344eb"
+        },
+        {
+          "name": "pintura interna",
+          "cost": "350",
+          "description": "pintura interna da loja",
+          "id": "7250ad5d-94c1-4891-8308-c431b521f61b"
+        },
+        {
+          "name": "caixa de supermercado",
+          "cost": "2000",
+          "id": "12318ab1-9631-49b4-a7e8-5c9c7a55febe"
+        },
+        {
+          "name": "prateleiras da loja",
+          "cost": "2500",
+          "id": "d74ebc1a-9bdd-46e1-9afc-6ad8bbd4d233"
+        },
+        {
+          "name": "mão de obra",
+          "cost": "2250",
+          "id": "e9c90d60-b5ba-42a7-b85b-2f0eec0c4375"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

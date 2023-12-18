@@ -1,0 +1,36 @@
+.contact_container {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.contact_container h1 {
+  background-color: #222;
+  color: #ffbb33;
+  padding: .5em;
+}
+
+.contacts {
+  padding-top: 1.5em;
+}
+.contacts p {
+  margin-bottom: .3em;
+  margin-left: .7em;
+}
+
+.contacts p span {
+  margin-right: .3em;
+  font-weight: bold;
+}
+
+.contacts svg {
+  font-size: 1.5em;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
